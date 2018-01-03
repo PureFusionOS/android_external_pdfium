@@ -12,6 +12,7 @@ cc_library_static {
         "-Wno-sign-compare",
         "-Wno-pointer-to-int-cast",
         "-Wno-unused-parameter",
+        "-Wno-tautological-type-limit-compare",
     ],
 
     shared_libs: ["libz"],
