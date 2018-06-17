@@ -8,7 +8,7 @@ cc_library_static {
         "-Wno-shift-negative-value",
         "-Wno-unused-parameter",
     ],
-
+    polly: false,
     srcs: [
         "libjpeg/fpdfapi_jcapimin.c",
         "libjpeg/fpdfapi_jcapistd.c",

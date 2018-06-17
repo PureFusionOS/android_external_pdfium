@@ -8,6 +8,7 @@ cc_library_static {
         "-Wno-sign-compare",
         "-Wno-unused-parameter",
     ],
+    polly: false,
 
     srcs: [
         "libopenjpeg20/bio.c",
